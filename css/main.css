@@ -1,9 +1,12 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 0px;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Open-Sans';
+    font-family: 'Roboto', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -14,26 +17,35 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: blue;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 3em;
-    font-family:'Open-Sans';
+    font-weight: bold;
+    padding 0px;
 }
-p {
+h3 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-weight: bold;
+    padding 0px;
+}
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding 0px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
+ul.posts {
+    font-family: 'Open Sans', sans-serif;
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
