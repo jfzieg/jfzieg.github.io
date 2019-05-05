@@ -4,6 +4,7 @@ body {
     padding: 0px;
     margin: 60px auto;
     width: 70%;
+    overflow: overlay;
 }
 nav ul, footer ul {
     font-family: 'Roboto', sans-serif;
@@ -40,8 +41,9 @@ p, li {
     padding 0px;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid black;
     font-size: .8em;
+    width: 100%;
 }
 
 ul.posts {
@@ -52,4 +54,16 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+main {
+    overflow: overlay;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    content: "";
+    clear: both;
 }
