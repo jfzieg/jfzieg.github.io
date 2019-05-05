@@ -1,0 +1,5 @@
+Local debug/testing:
+
+run bundle exec jekyll serve
+
+goto localhost:4000
