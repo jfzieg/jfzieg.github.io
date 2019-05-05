@@ -9,5 +9,5 @@ I’m graduating with a Bachelor of Science in Computer Science from UVM in May,
 
 Next steps are hopefully to continue studies into a Masters of Science at UVic.
 
-![climb](https://jfzieg.github.io/about/climb.jpg)
+<img src="https://jfzieg.github.io/about/climb.jpg" alt="\"sending\" starry night 5.12a" style="width: 50%;"/>
 
