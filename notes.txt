@@ -1,5 +1,11 @@
-Local debug/testing:
+[local debug/testing]
 
-run bundle exec jekyll serve
+run: bundle exec jekyll serve
 
-goto localhost:4000
+goto: localhost:4000
+
+[todo]
+
+05/05/2019 - clean up css sheets and rewrite html layouts.
+
+05/06/2019 - add post functionality, add tile layout for pictures (instagram feed?)

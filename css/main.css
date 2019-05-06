@@ -1,8 +1,25 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    overflow: overlay;
+}
+.responsive {
+    float: left;
+    width: 50%;
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     padding: 0px;
-    margin: 60px auto;
+    margin: 7% auto;
     width: 70%;
     overflow: overlay;
 }
@@ -14,7 +31,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2.5%;
 }
 a {
     text-decoration: none;
@@ -28,17 +45,20 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     padding 0px;
+    margin: 0px;
 }
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     padding 0px;
+    margin: 0px;
 }
 p, li {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     padding 0px;
+    overflow: overlay;
 }
 footer {
     border-top: 1px solid black;
@@ -55,15 +75,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-main {
-    overflow: overlay;
-}
-.column {
+div.gallery {
     float: left;
-    width: 50%;
+    width: 100%;
 }
-
-.row {
-    content: "";
-    clear: both;
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
