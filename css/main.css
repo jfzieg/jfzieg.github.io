@@ -8,10 +8,8 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
     padding: 0px;
-    margin: 7% auto;
-    width: 70%;
+    margin: 5%;
     overflow: overlay;
 }
 nav ul, footer ul {
@@ -67,32 +65,33 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-div.gallery {
+.gallery {
     float: left;
     width: 100%;
 }
-div.gallery img {
+.gallery img {
     width: 100%;
     height: auto;
 }
-.responsive {
-    float: left;
-    width: 50%;
-}
+
 
 @media (min-width: 500px) {
   /* Rules for tablets and bigger viewports */
     .responsive {
         width: 100%;
     }
-    body{
+    body {
         width: 90%;
         font-size: 1.5em;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   /* Rules for laptops, small desktop screens and bigger viewports */
+    body {
+    	width: 70%;
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 1200px) {
