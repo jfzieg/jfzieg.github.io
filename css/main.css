@@ -7,27 +7,11 @@
     overflow: overlay;
 }
 body {
+    width: 70%;
     font-family: 'Roboto', sans-serif;
     padding: 0px;
-    margin: 5%;
+    margin: auto;
     overflow: overlay;
-}
-nav ul, footer ul {
-    font-family: 'Roboto', sans-serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 2.5%;
-}
-a {
-    text-decoration: none;
-    color: blue;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -46,8 +30,26 @@ h3 {
 p, li {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    padding 0px;
+    padding 0%;
+    margin: 0%;
     overflow: overlay;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav ul, footer ul {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 2.5%;
 }
 footer {
     border-top: 1px solid black;
@@ -55,7 +57,7 @@ footer {
     font-size: .8em;
     width: 100%;
 }
-
+/* 
 ul.posts {
     font-family: 'Open Sans', sans-serif;
     margin: 20px auto 40px; 
@@ -64,16 +66,12 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-.gallery {
-    float: left;
-    width: 100%;
-}
-.gallery img {
+} */
+img {
+    border: 1px solid black;
     width: 100%;
     height: auto;
 }
-
 @media (min-width: 500px) {
   /* Rules for tablets and bigger viewports */
     body {
@@ -81,7 +79,6 @@ ul.posts li {
         font-size: 1.5em;
     }
 }
-
 @media (min-width: 900px) {
   /* Rules for laptops, small desktop screens and bigger viewports */
     body {
@@ -89,7 +86,6 @@ ul.posts li {
         font-size: 1em;
     }
 }
-
 @media (min-width: 1200px) {
   /* Rules for larger desktop screens only */
 }
