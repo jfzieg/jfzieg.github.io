@@ -74,12 +74,8 @@ ul.posts li {
     height: auto;
 }
 
-
 @media (min-width: 500px) {
   /* Rules for tablets and bigger viewports */
-    .responsive {
-        width: 100%;
-    }
     body {
         width: 90%;
         font-size: 1.5em;
