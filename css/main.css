@@ -79,7 +79,9 @@ div.gallery img {
     float: left;
     width: 50%;
 }
-@media (max-width: 700px) {
+
+@media (min-width: 500px) {
+  /* Rules for tablets and bigger viewports */
     .responsive {
         width: 100%;
     }
@@ -88,3 +90,12 @@ div.gallery img {
         font-size: 1.5em;
     }
 }
+
+@media (min-width: 992px) {
+  /* Rules for laptops, small desktop screens and bigger viewports */
+}
+
+@media (min-width: 1200px) {
+  /* Rules for larger desktop screens only */
+}
+
