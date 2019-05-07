@@ -9,30 +9,27 @@
 body {
     width: 70%;
     font-family: 'Roboto', sans-serif;
-    padding: 0px;
-    margin: auto;
-    overflow: overlay;
+    padding: 0%;
+    margin: 5% auto;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     font-weight: bold;
-    padding 0px;
-    margin: 0px;
+    padding 0%;
+    margin: 0%;
 }
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-    padding 0px;
-    margin: 0px;
+    padding 0%;
+    margin: 0%;
 }
 p, li {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     padding 0%;
-    margin: 0%;
-    overflow: overlay;
 }
 a {
     text-decoration: none;
@@ -41,9 +38,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
-nav ul, footer ul {
+.meta{
+    margin-top: 0%;
+}
+ul {
     font-family: 'Roboto', sans-serif;
-    padding: 0px;
+    padding: 0%;
     list-style: none;
     font-weight: bold;
 }
@@ -72,7 +72,31 @@ img {
     width: 100%;
     height: auto;
 }
-@media (min-width: 500px) {
+.grid_layout {
+    /* Prevent vertical gaps */
+    -webkit-column-count: 1;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    1;
+    -moz-column-gap:      0px;
+    column-count:          1;
+    column-gap:           0px;
+    line-height: 0;
+}
+
+.grid_layout figure{
+/*Just in case there are inline attributes */
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+
+}
+.grid_layout figcaption{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+@media (min-width: 600px) {
   /* Rules for tablets and bigger viewports */
     body {
         width: 90%;
@@ -85,8 +109,18 @@ img {
     	width: 70%;
         font-size: 1em;
     }
+    .grid_layout {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
 }
 @media (min-width: 1200px) {
   /* Rules for larger desktop screens only */
+  .grid_layout {
+      -moz-column-count:    3;
+      -webkit-column-count: 3;
+      column-count:         3;
+  }
 }
 

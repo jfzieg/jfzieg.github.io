@@ -1,6 +1,7 @@
 ---
 layout: post
-title: post
+title: testing the waters
+author: joseph zieg
 date: 2019-05-06
 ---
 
