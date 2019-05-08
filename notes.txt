@@ -6,8 +6,10 @@ goto: localhost:4000
 
 [todo]
 
-05/05/2019 - clean up css sheets and rewrite html layouts.
+05/05/2019 - clean up css sheets and rewrite html layouts. - completed
 
-05/06/2019 - add post functionality, add tile layout for                  pictures (instagram feed?)
+05/06/2019 - add post functionality, add tile layout for                  pictures (instagram feed?) - completed
 
 05/07/2019 - fix the grid_layout figcaptions not locking to the           image.
+
+05/07/2019 - figure out better file hosting for pictures. Loading seems kinda slow.
