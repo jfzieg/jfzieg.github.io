@@ -13,3 +13,5 @@ goto: localhost:4000
 05/07/2019 - fix the grid_layout figcaptions not locking to the           image.
 
 05/07/2019 - figure out better file hosting for pictures. Loading seems kinda slow.
+
+05/11/2019 - work on anchoring the footer to bottom of page.
