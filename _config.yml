@@ -1,3 +1,4 @@
+#Jekyll Config
 title: Joseph Zieg
 markdown: kramdown
 permalink: /posts/:year/:month/:day/:title

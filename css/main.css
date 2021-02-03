@@ -7,44 +7,45 @@
     overflow: overlay;
 }
 body {
+    /* position: relative; */
+    position: relative;
     width: 90%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
-    padding: 0%;
+    padding-bottom: 6rem;
     margin: auto;
     margin-top: 5%;
+    min-height: 90vh;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     font-weight: bold;
-    padding 0%;
+    padding: 0%;
     margin: 0%;
 }
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: bold;
-    padding 0%;
-    margin-top: 2.5%;
+    padding: 0%;
+    margin-top: .5%;
     margin-bottom: 0%;
 }
 p, li {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    padding 0%;
-    margin 0%;
+    padding: 0%;
+    margin-top: 2.5%;
 }
-a {
+a{
     text-decoration: none;
     color: blue;
     margin: 0%;
 }
+
 a:hover {
     text-decoration: underline;
-}
-.meta{
-    margin-top: 0%;
 }
 ul {
     font-family: 'Roboto', sans-serif;
@@ -57,9 +58,10 @@ nav ul li, footer ul li {
     margin-right: 2.5%;
 }
 footer {
-    border-top: 2px solid black;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid;
+    padding-bottom: 2%;
     font-size: .9em;
     width: 100%;
 }
@@ -74,11 +76,12 @@ ul.posts li {
     list-style: none;
 } */
 img {
-    border: 2px solid black;
+    border: 2px solid;
     width: 100%;
     height: auto;
 }
 .grid_layout {
+    padding-top: 1%;
     /* Prevent vertical gaps */
     -webkit-column-count: 1;
     -webkit-column-gap:   1.5em;
@@ -97,9 +100,30 @@ img {
     padding: 0px;
 
 }
-.grid_layout figcaption{
+.grid_layout figcaption {
     font-size: 1em;
     line-height: 1.5em;
+}
+
+.wrap {
+    background: #eee; color: black; 
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .wrap.dark-scheme   { 
+      background:  #222; color: white; 
+  }
+  a{
+      color: darkorange;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .wrap.light-scheme   { 
+      background: white; 
+      color:  #555; 
+    }
 }
 
 @media only screen and (min-width: 775px) {
@@ -109,6 +133,7 @@ img {
 
     }
 }
+
 @media only screen and (min-width: 900px) {
   /* Rules for laptops, small desktop screens and bigger viewports */
     body {
