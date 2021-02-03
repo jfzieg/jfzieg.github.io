@@ -14,4 +14,6 @@ goto: localhost:4000
 
 05/07/2019 - figure out better file hosting for pictures. Loading seems kinda slow.
 
-05/11/2019 - work on anchoring the footer to bottom of page.
+05/11/2019 - work on anchoring the footer to bottom of page. - completed
+
+02/02/2021 - add dark mode to site. Need link color invert. - completed

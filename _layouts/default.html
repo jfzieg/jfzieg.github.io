@@ -3,19 +3,20 @@
 	<head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-            <link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 		</head>
-	<body class="wrap dark-scheme">
-		<nav>
+	<body>
+		<header>
+			<h1><a href="/">home</a></h1>
+			<nav>
     		<ul>
-        		<li><a href="/">home</a></li>
-	        	<li><a href="/about/about.html">about</a></li>
-                <li><a href="/posts/index.html">posts</a></li>
-        		<!-- <li><a href="/cv/cv_5_2019.html">cv</a></li> -->
-                <li><a href="/projects/projects.html">projects</a></li>
+	        	<a href="/about/about.html">about</a>
+                <a href="/posts/index.html">posts</a>
+                <a href="/projects/projects.html">projects</a>
     		</ul>
 		</nav>
+	</header>
     <div>
 			
 			{{ content }}

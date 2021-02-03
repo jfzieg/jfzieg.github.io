@@ -3,4 +3,3 @@ title: Joseph Zieg
 markdown: kramdown
 permalink: /posts/:year/:month/:day/:title
 pagination_path: "/posts/page:num"
-
